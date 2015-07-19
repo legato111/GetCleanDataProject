@@ -51,7 +51,7 @@ merged_test_train <- rbind(x_test,x_train)
 ##in the name, also activity and subjectid since we still need those
 colmeanstdnumbers <- grep("[Mm][Ee][Aa][Nn]|[Ss][Tt][Dd]", names(merged_test_train))
 colmeanstd <- names(merged_test_train)[colmeanstdnumbers]
-colmeanstd <- append("subjectid", "activity", colmeanstd)
+colmeanstd <- append(c("subjectid", "activity"), colmeanstd)
 meanstd_merged <- merged_test_train[,colmeanstd, with=FALSE]
 
 ##3. Uses descriptive activity names to name the activities in the data set
