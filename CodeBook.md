@@ -12,39 +12,39 @@ These signals were used to estimate variables of the feature vector for each pat
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 
-*tBodyAcc-XYZ
+*tBodyAcc-XYZ - linear acceleration direction vector
 
-*tGravityAcc-XYZ
+*tGravityAcc-XYZ - linear acceleration direction vector
 
-*tBodyAccJerk-XYZ
+*tBodyAccJerk-XYZ - linear acceleration direction vector
 
-*tBodyGyro-XYZ
+*tBodyGyro-XYZ - angular velocity direction vector
 
-*tBodyGyroJerk-XYZ
+*tBodyGyroJerk-XYZ - angular velocity direction vector
 
-*tBodyAccMag
+*tBodyAccMag - linear acceleration magnitude - m/s^2
 
-*tGravityAccMag
+*tGravityAccMag - linear acceleration magnitude - m/s^2
 
-*tBodyAccJerkMag
+*tBodyAccJerkMag - linear acceleration magnitude - m/s^2
 
-*tBodyGyroMag
+*tBodyGyroMag - angular velocity magnitude - degrees per second
 
-*tBodyGyroJerkMag
+*tBodyGyroJerkMag - angular velocity magnitude - degrees per second
 
-*fBodyAcc-XYZ
+*fBodyAcc-XYZ - linear acceleration direction vector
 
-*fBodyAccJerk-XYZ
+*fBodyAccJerk-XYZ - linear acceleration direction vector
 
-*fBodyGyro-XYZ
+*fBodyGyro-XYZ - angular velocity direction vector
 
-*fBodyAccMag
+*fBodyAccMag - linear acceleration magnitude - m/s^2
 
-*fBodyAccJerkMag
+*fBodyAccJerkMag - linear acceleration magnitude - m/s^2
 
-*fBodyGyroMag
+*fBodyGyroMag - angular velocity magnitude - degrees per second
 
-*fBodyGyroJerkMag
+*fBodyGyroJerkMag - angular velocity magnitude - degrees per second
 
 
 
@@ -57,12 +57,12 @@ The set of variables that we included in our dataset from these signals are:
 *angle(): Angle between vectors was also calculated (averaging the signals in a signal window sample), with the mean values below included:
 
 
-*gravityMean
+*gravityMean - m/s^2
 
-*tBodyAccMean
+*tBodyAccMean  - linear acceleration direction vector
 
-*tBodyAccJerkMean
+*tBodyAccJerkMean - linear acceleration direction vector
 
-*tBodyGyroMean
+*tBodyGyroMean - angular velocity direction vector
 
-*tBodyGyroJerkMean
+*tBodyGyroJerkMean - angular velocity direction vector
