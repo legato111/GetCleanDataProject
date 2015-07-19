@@ -1,2 +1,2 @@
-# GetCleanDataProject
-#run_analysis.R is a script which takes the Human Activity Recognition Using Smartphones Dataset by Reyes-Ortiz et. al (see their documentation at https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) for details and processes it to obtain mean values for each subject and activity for the mean and std deviation parameters. To use it set R WD to the main folder of the dataset and run script run_analysis.R.
+#GetCleanDataProject
+run_analysis.R is a script which takes the Human Activity Recognition Using Smartphones Dataset by Reyes-Ortiz et. al (see their documentation at https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones for details) and processes it to obtain mean values for each subject/activity for the mean/std deviation parameters. To use it set R working directory to the main folder of the dataset and run script run_analysis.R.
