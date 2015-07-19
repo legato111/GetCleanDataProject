@@ -9,7 +9,7 @@
 ##columns should have same values, making one large dataset
 
 ##BEFORE STARTING SET WD as the UCI HAR Dataset folder##
-##Also load libraries
+##Also load libraries, install data.table package if you have not
 library(data.table)
 
 #Reading
